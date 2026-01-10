@@ -1,23 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <title>Sameer's protfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sameer khan | Portfolio</title>
+    <link rel="stylesheet" href="stylec.css">
 </head>
-
 <body>
-    <h1>SAMEER KHAN'S PORTFOLIO</h1>
-    <h2>I'm a web developer</h2>
-    <hr/>
-    <h2><a href="./public/movie-ranking.html">Movie Ranking Project</a></h2>
-    <img src="./assets/images/movie.png" height="200" alt="image of my birthday project"/>
-    <br/>
-    <h2><a href="./public/birthday.html">Birthday Invite Project</a></h2>
-    <img src="./assets/images/birthday.png" height="200" alt="image of birthday project"/>
-    <hr/>
-    <h2><a href="./public/about.html">About Me</a></h2>
-    <h2><a href="./public/contact.html">Contact Me</a></h2>
+
+    <header>
+        <nav>
+            <h1>Sameer Khan</h1>
+            <ul id="menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+             </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Hi, I'm Sameer Khan</h2>
+        <p>Engineering Student | Web Developer | Problem Solver</p>
+        <a href="#projects">View My Work</a>
+        <a href="#contact">Contact Me</a>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Write a short, sharp paragraph about who you are, what you study,
+            and what kind of problems you like to solve.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React (if applicable)</li>
+            <li>Python / C / C++</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <article>
+            <h3>Project Title 1</h3>
+            <p>Short description of what the project does.</p>
+            <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+            <a href="#">Live Demo</a>
+            <a href="#">GitHub</a>
+        </article>
+
+        <article>
+            <h3>Project Title 2</h3>
+            <p>Short description of what the project does.</p>
+            <p><strong>Tech:</strong> React, API, etc.</p>
+            <a href="#">Live Demo</a>
+            <a href="https://github.com/I-Sameer">GitHub</a>
+        </article>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+
+        <article>
+            <h3>Internship</h3>
+            <p>INDIAN OIL COORPORATION LIMITED | ONE MONTH</p>
+            <ul>
+                <li>What you worked on</li>
+                <li>What you improved</li>
+                <li>What impact you made</li>
+            </ul>
+        </article>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form>
+            <label>
+                Name:
+                <input type="text" required>
+            </label>
+
+            <label>
+                Email:
+                <input type="email" required>
+            </label>
+
+            <label>
+                Message:
+                <textarea rows="5" required></textarea>
+            </label>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2026 Sameer khan</p>
+        <p>
+            <a href="https://github.com/I-Sameer">GitHub</a> |
+            <a href="https://www.linkedin.com/in/mesameer-khan/">LinkedIn</a> |
+            <a href="https://x.com/">Twitter</a>
+        </p>
+    </footer>
+
 </body>
 
 </html>
