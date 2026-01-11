@@ -5,14 +5,18 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    /* Vibrant mesh gradient background */
+html {
+    /* Vibrant mesh gradient background - moved here for seamless overscroll */
     background: radial-gradient(circle at 0% 0%, #3a1c71 0%, #d76d77 50%, #ffaf7b 100%),
         radial-gradient(circle at 100% 100%, #1a2980 0%, #26d0ce 100%);
     background-blend-mode: overlay;
     background-attachment: fixed;
     background-size: cover;
+    min-height: 100%;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     min-height: 100vh;
     color: #fff;
     line-height: 1.6;
@@ -35,8 +39,8 @@ header {
     top: 20px;
     z-index: 1000;
     margin: 0 auto 40px;
-    width: 90%;
-    max-width: 1200px;
+    width: 95%;
+    max-width: 1400px;
 }
 
 nav {
@@ -95,8 +99,8 @@ nav a:hover {
 
 /* Main Layout */
 section {
-    max-width: 1000px;
-    margin: 40px auto;
+    max-width: 1400px;
+    margin: 60px auto;
     padding: 40px;
     /* Apply glass effect to sections by default or treat them as containers */
     /* We'll wrap content in glass panels or style specific cards */
