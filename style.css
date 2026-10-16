@@ -1096,7 +1096,7 @@ header.scrolled {
 .contact-email-badge .copy-chip {
   font-size: 0.72rem;
   text-transform: uppercase;
-  background: var(--c-teal);
+  background: var(--c-teal-sage);
   color: #ffffff;
   padding: 2px 8px;
   border-radius: 999px;
@@ -1108,7 +1108,7 @@ header.scrolled {
   align-items: center;
   gap: 8px;
   font-size: 0.82rem;
-  color: var(--c-muted);
+  color: var(--c-seafoam);
   font-family: var(--font-mono);
 }
 
