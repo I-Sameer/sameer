@@ -389,18 +389,18 @@ header.scrolled {
    5. Hero Section
    -------------------------------------------------------------------------- */
 #hero {
-  min-height: 90vh;
+  min-height: auto;
   display: flex;
   align-items: center;
-  padding-top: calc(var(--nav-height) + 50px);
-  padding-bottom: 60px;
+  padding-top: calc(var(--nav-height) + 28px);
+  padding-bottom: 36px;
 }
 
 .hero-grid {
   display: grid;
   grid-template-columns: 1.2fr 0.8fr;
   align-items: center;
-  gap: 48px;
+  gap: 40px;
 }
 
 .hero-content {
@@ -413,14 +413,14 @@ header.scrolled {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 5px 14px;
+  padding: 4px 12px;
   background: rgba(184, 227, 233, 0.08);
   border: 1px solid rgba(184, 227, 233, 0.22);
   border-radius: var(--radius-full);
-  font-size: 0.82rem;
+  font-size: 0.8rem;
   font-weight: 500;
   color: var(--c-ice);
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .hero-badge .status-dot {
@@ -432,20 +432,20 @@ header.scrolled {
 }
 
 .hero-title {
-  font-size: clamp(2.3rem, 4vw, 3.4rem);
+  font-size: clamp(2.2rem, 3.8vw, 3.2rem);
   font-weight: 700;
   line-height: 1.18;
   letter-spacing: -0.035em;
   color: var(--c-ice);
-  margin-bottom: 20px;
+  margin-bottom: 14px;
 }
 
 .hero-subtitle {
-  font-size: 1.08rem;
+  font-size: 1.02rem;
   color: var(--text-secondary);
-  line-height: 1.68;
-  margin-bottom: 32px;
-  max-width: 540px;
+  line-height: 1.62;
+  margin-bottom: 22px;
+  max-width: 520px;
 }
 
 .hero-subtitle strong {
