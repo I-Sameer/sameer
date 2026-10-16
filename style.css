@@ -457,7 +457,7 @@ header.scrolled {
   display: flex;
   flex-wrap: wrap;
   gap: 14px;
-  margin-bottom: 32px;
+  margin-bottom: 0;
 }
 
 .hero-socials {
@@ -1124,56 +1124,20 @@ header.scrolled {
    12. Footer
    -------------------------------------------------------------------------- */
 footer {
-  padding: 48px 0 32px;
+  padding: 36px 0;
+  border-top: 1px solid var(--border-subtle);
   color: var(--text-muted);
   font-size: 0.86rem;
-}
-
-.footer-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 20px;
-  padding-bottom: 28px;
-  border-bottom: 1px solid var(--border-subtle);
-}
-
-.footer-brand h3 {
-  color: var(--c-ice);
-  font-size: 1.15rem;
-  font-weight: 600;
-}
-
-.footer-brand p {
-  color: var(--text-secondary);
-  font-size: 0.84rem;
-}
-
-.footer-links {
-  display: flex;
-  gap: 20px;
-  list-style: none;
-}
-
-.footer-links a:hover {
-  color: var(--c-ice);
-}
-
-.footer-socials {
-  display: flex;
-  gap: 10px;
 }
 
 .footer-bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 24px;
   color: var(--text-muted);
-  font-size: 0.82rem;
+  font-size: 0.84rem;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 12px;
 }
 
 /* Scroll To Top */
@@ -1390,9 +1354,10 @@ footer {
     grid-template-columns: 1fr;
   }
 
-  .footer-content {
+  .footer-bottom {
     flex-direction: column;
-    align-items: flex-start;
+    text-align: center;
+    gap: 8px;
   }
 }
 
